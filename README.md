@@ -15,8 +15,6 @@ The dataset of this project comes from the third BCI competition and consists of
 
 4) The procedure is repeated 15 times for each character in the dataset, for a total of 12 x 15 = 180 columns/rows flashes during 15 epochs of a single character;
 
-![P300 experiment procedure](images/p300-experiment.jpg)
-
 <p align="center">
   <img src="images/p300-experiment.jpg">
 </p>
@@ -25,7 +23,9 @@ The dataset of this project comes from the third BCI competition and consists of
 
 The first part of this project consists in finding a suitable model for classifying the presence of a P300 response in a given window of 650 ms of the EEG tracks. The class of models considered are 1D Convolutional Neural Networks of 5 layers: 
 
-![CNN architecture](images/cnn-architecture.png)
+<p align="center">
+  <img src="images/cnn-architecture.png">
+</p>
 
 Based on the architecture just proposed, additional models have been developed with some variations:
 
@@ -62,7 +62,9 @@ After choosing one of the binary classification model, by giving a batch of 12 w
 
 For multiple epochs of the same character, before step 1) we first accumulate predictions in a matrix 12 x N_EPOCHS, and then we compute the mean in order to obtain a single array of 12 values. The procedure then follows as described from 1) to 5).
 
-![Speller system](images/speller-system.png)
+<p align="center">
+  <img src="images/speller-system.png">
+</p>
 
 # Materials:
 All the materials of this project are organized into 3 separate folders:
