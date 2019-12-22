@@ -15,13 +15,13 @@ The dataset of this project comes from the third BCI competition and consists of
 
 4) The procedure is repeated 15 times for each character in the dataset, for a total of 12 x 15 = 180 columns/rows flashes during 15 epochs of a single character;
 
-![P300 experiment procedure](images/p300-experiment.png)
+![P300 experiment procedure](images/p300-experiment.jpg)
 
 # P300 binary classification:
 
 The first part of this project consists in finding a suitable model for classifying the presence of a P300 response in a given window of 650 ms of the EEG tracks. The class of models considered are 1D Convolutional Neural Networks of 5 layers: 
 
-![CNN architecture](images/cnn-architecture.jpg)
+![CNN architecture](images/cnn-architecture.png)
 
 Based on the architecture just proposed, additional models have been developed with some variations:
 
