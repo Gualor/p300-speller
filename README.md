@@ -17,6 +17,10 @@ The dataset of this project comes from the third BCI competition and consists of
 
 ![P300 experiment procedure](images/p300-experiment.jpg)
 
+<p align="center">
+  <img src="images/p300-experiment.jpg">
+</p>
+
 # P300 binary classification:
 
 The first part of this project consists in finding a suitable model for classifying the presence of a P300 response in a given window of 650 ms of the EEG tracks. The class of models considered are 1D Convolutional Neural Networks of 5 layers: 
